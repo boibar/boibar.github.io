@@ -8,9 +8,6 @@
   --font-semi: 600;
 
   --panel-width: calc(120% / 6);
-  --darkblue: #02020c;
-  --white: #fff;
-  --lightgray: #fafafb;
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
@@ -157,7 +154,7 @@ img {
   transform: translateX(-50%) skewX(-35deg);
   clip-path: none;
   z-index: 100;
-  background: var(--lightgray);
+  background: white;
 }
 
 .panels .panel {
@@ -168,7 +165,7 @@ img {
   width: var(--panel-width);
   transform: scaleY(0);
   transform-origin: top;
-  background: var(--darkblue);
+  background: black;
 }
 
 .panels .panel:nth-child(even) {
